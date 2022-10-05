@@ -34,6 +34,31 @@ a, .btn-link {
     color: red;
 }
 
+.original-price{
+    text-decoration: line-through;
+}
+
+.media-img-wrapper {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.media-img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    magin-buttom: 10px;
+    transition: transform .2s;
+}
+
+.media-img:hover {
+    transform: scale(1.1);
+}
+.price {
+    color: green;
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
